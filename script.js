@@ -84,21 +84,27 @@
 
 // console.log(isNaN("sefsef"));
 
-var number1 = +prompt('brinchi sonni kiriting')
-var number2 = +prompt('ikkinchi sonni kiriting')
+// var number1 = +prompt('brinchi sonni kiriting')
+// var number2 = +prompt('ikkinchi sonni kiriting')
 
-if (number1 == number2 && !isNaN(number1) && !isNaN(number2)) {
-    console.log('sonlar teng');
-} else if (number1 < number2 && !isNaN(number1) && !isNaN(number2)) {
-    console.log('birinchi son kichkina' );
-} else if (number1 > number2  && !isNaN(number1) && !isNaN(number2)) {
-    console.log('ikkinchi son kichkina');
-} else {
-    if (isNaN(number1) && isNaN(number2)) {
-        console.log('Sonlar noto`g`ri');
-    } else if (isNaN(number1)) {
-        console.log('Brinchi son noto`g`ri');
-    } else if (isNaN(number)) {
-        console.log('ikkinchi son notog`ri');
-    }
-}
+// if (number1 == number2 && !isNaN(number1) && !isNaN(number2)) {
+//     console.log('sonlar teng');
+// } else if (number1 < number2 && !isNaN(number1) && !isNaN(number2)) {
+//     console.log('birinchi son kichkina' );
+// } else if (number1 > number2  && !isNaN(number1) && !isNaN(number2)) {
+//     console.log('ikkinchi son kichkina');
+// } else {
+//     if (isNaN(number1) && isNaN(number2)) {
+//         console.log('Sonlar noto`g`ri');
+//     } else if (isNaN(number1)) {
+//         console.log('Brinchi son noto`g`ri');
+//     } else if (isNaN(number)) {
+//         console.log('ikkinchi son notog`ri');
+//     }
+// }
+
+// var num = 7
+// if (num > 5 || num < 5) {
+//     console.log(true);
+// }
+
